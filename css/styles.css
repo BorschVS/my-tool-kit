@@ -1,0 +1,40 @@
+body {
+  background: #8a2387;
+  background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121);
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+
+.container {
+  width: 1200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tools-list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tools-list__item {
+    
+}
+
+.tools-list__link {
+display: inline-block;
+width: 200px;
+  text-decoration: none;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  padding: 100px 10px;
+  border-radius: 5px;
+  
+  text-align: center;
+}
